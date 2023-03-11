@@ -6,7 +6,7 @@ body {
 }
 
 .header{
-    gap:110px;
+    gap: 310px;
 }
 
 .header, .footer{
@@ -30,7 +30,7 @@ body {
     flex: 1 1 0;
     display: flex;
     justify-content:center;
-    gap: 30px;
+    gap: 130px;
     padding: 40px;
     align-content: center;
 }
@@ -62,10 +62,23 @@ body {
     gap: 30px;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 .card img{
     width: 250px;
     border: 4px solid #62b4fc;
     border-radius: 10px;
+}
+
+.card .text{
+    max-width: 230px;
+    text-align: center;
+    color: rgb(109, 109, 109);
 }
 
 .session3{
@@ -74,7 +87,16 @@ body {
     display: flex;
     align-content: center;
     justify-content: space-around;
-    padding: 40px;
+    padding: 50px 250px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.session3 strong{
+    font-size: 28px;
+    float: right;
 }
 
 .session4{
@@ -86,16 +108,22 @@ body {
 }
 
 .banner{
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #3882f6;
     color:white;
-    padding: 10px;
+    padding: 20px 200px;
     display: flex;
-    gap: 5px;
+    gap: 150px;
+}
+
+.banner strong{
+    font-size: 32px;
 }
 
 .banner button{
     border: 2px solid white;
+    height: min-content;
+    align-self: center;
 }
 
 .header-logo{
