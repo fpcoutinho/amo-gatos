@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin:0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Quicksand, sans-serif;
     max-width: 100vw;
 }
 
 h1{
-    font-size: 5vmin;
+    font-size: 4vmin;
     font-weight: bolder;
 }
 
 .header{
-    gap:11vmin;
+    gap:20vmin;
 }
 
 .header img{
@@ -42,7 +44,7 @@ h1{
     flex: 1 1 0;
     display: flex;
     justify-content:center;
-    gap: 11vmin;
+    gap: 10vmin;
     padding: 4vmin;
     align-content: center;
 }
@@ -89,7 +91,7 @@ h1{
 
 .card img{
     width: 28vmin;
-    border: 4px solid #62b4fc;
+    border: 4px solid salmon;
     border-radius: 10px;
 }
 
@@ -127,7 +129,7 @@ h1{
 
 .banner{
     border-radius: 20px;
-    background-color: #3882f6;
+    background-color: lightsalmon;
     color:white;
     padding: 2vmin 20vmin;
     display: flex;
@@ -168,10 +170,15 @@ a:hover{
 }
 
 button{
-    background-color: #3882f6;
+    background-color: salmon;
     color: #fff;
     border-radius: 10px;
     border: none;
-    padding: 2vmin 3vmin;
+    padding: 1vmin 3vmin;
     font-size: 2vmin;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darksalmon;
 }
